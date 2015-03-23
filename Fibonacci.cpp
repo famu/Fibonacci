@@ -4,10 +4,8 @@
  *  Created on: Mar 22, 2015
  *      Author: Faisal
  */
-
-#ifndef ALGORITHMS_H_
-#define ALGORITHMS_H_
-
+#include <iostream>
+using namespace std;
 int fibonacci_recursive(int n)
 {
     if (n == 0)
@@ -57,16 +55,13 @@ int fib_memoized(int n)
 }
 
 
-class Fibonacci {
-public:
-	Algorithms();
-	virtual ~Algorithms();
 
+int main(int argc, char* const argv[]){
 
 	int n;
-	    cout << "Please input a number: ";
-	    cin >> n;
-	    cout << "Fibonacci(" << n << ") = " << fib(n) << "." << endl;
-};
+	   cout << "Please input a number: ";
+	   cin >> n;
+	   cout << "Fibonacci(" << n << ") = " << fib(n) << "." << endl;
 
-#endif /* ALGORITHMS_H_ */
+}
+
