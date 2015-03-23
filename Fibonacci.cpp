@@ -1,5 +1,5 @@
 /*
- * Algorithms.h
+ * fibonacci.cpp
  *
  *  Created on: Mar 22, 2015
  *      Author: Faisal
